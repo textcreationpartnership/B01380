@@ -1,0 +1,454 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Askew, intituled, I am a woman poor and blind.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 9 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B01380</idno>
+            <idno type="STC">Wing A3212</idno>
+            <idno type="STC">Wing R279C</idno>
+            <idno type="STC">Interim Tract Supplement Guide C.20.f.8[15]</idno>
+            <idno type="EEBO-CITATION">99892355</idno>
+            <idno type="PROQUEST">ocm99892355</idno>
+            <idno type="VID">183222</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B01380)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 183222)</note>
+            <note>Images scanned from microfilm: (Early English books; Tract supplement ; A5:1[5]; A5:2[13])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Askew, intituled, I am a woman poor and blind.</title>
+               </titleStmt>
+               <extent>1 sheet ([1] p.) : ill. (woodcut).  </extent>
+               <publicationStmt>
+                  <publisher>Printed by and for A.M. and sold by the booksellers of London,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1695?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Verse: "I am a woman poor and blind ..."</note>
+                  <note>Publication date suggested by Wing.</note>
+                  <note>Mounted with: A rare example of a vertuous maid in Paris. A single sheet divided for mounting?</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Askew, Anne, 1521-1546 --  Early works to 1800.</term>
+               <term>Ballads, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2009-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="ballad">
+            <pb n="14" facs="tcp:183222:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 20 -->
+            <head>An Askew, Intituled, <hi>I am a Woman Poor and Blind.</hi>
+            </head>
+            <p>
+               <figure/>
+            </p>
+            <lg>
+               <l>I Am a woman poor and blind,</l>
+               <l>and little knowledge remains in me,</l>
+               <l>Long have I ſought, but fain would fain,</l>
+               <l>what Herb in my Garden were beſt to be.</l>
+            </lg>
+            <lg>
+               <l>A Garden I have which is unknown,</l>
+               <l>which God of his goodneſs gave to me</l>
+               <l>I mean my body, where I ſhould have ſown</l>
+               <l>the ſeed of Chriſts true verity.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>My ſpirit within me is vexed ſore,</hi>
+               </l>
+               <l>
+                  <hi>my ſpirit ſtriveth againſt the ſame,</hi>
+               </l>
+               <l>
+                  <hi>My ſorrows do encreaſe more and more,</hi>
+               </l>
+               <l>
+                  <hi>my conſcience ſuffereth moſt bitter pain.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>I with my ſelf being thus at ſtrife,</l>
+               <l>would fain have been at reſt,</l>
+               <l>muſing and ſtudying in mortal life,</l>
+               <l>what things I might do to pleaſe God beſt,</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>With whole intent and one accord,</hi>
+               </l>
+               <l>
+                  <hi>unto a Gardiner that I did know,</hi>
+               </l>
+               <l>
+                  <hi>I deſired him for the love of the</hi> Lord,</l>
+               <l>
+                  <hi>true ſeed in my garden for to ſow.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Then this proud Gardener ſeeing me ſo blind,</l>
+               <l>he thought on me to work his will,</l>
+               <l>And flattered me with words ſo kind,</l>
+               <l>to have me continue in my blindneſs ſtill.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>He fed me then with lies and mocks,</hi>
+               </l>
+               <l>
+                  <hi>for venial ſins he bid me go:</hi>
+               </l>
+               <l>
+                  <hi>to give my money to ſtones and ſtocks,</hi>
+               </l>
+               <l>
+                  <hi>which was ſtark lies and nothing ſo.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>vvith ſtinking meat then was I fed,</l>
+               <l>for to keep me from my Salvation,</l>
+               <l>I had Trentals of maſs, and balls of Lead,</l>
+               <l>not one word ſpoke of Chriſt's paſſion.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>In me was ſown all kind of feigned ſeeds,</hi>
+               </l>
+               <l>
+                  <hi>with Popiſh Ceremonies many a one,</hi>
+               </l>
+               <l>
+                  <hi>Maſſes of Requiem, with other juggling deeds,</hi>
+               </l>
+               <l>
+                  <hi>ſtill Gods Spirit out of my garden was gone.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Then was I commanded moſt ſtrictly,</l>
+               <l>if of my Salvation I would be ſure,</l>
+               <l>To build ſome Chappel or Chauntry,</l>
+               <l>to be pray'd for while the world doth endure.</l>
+            </lg>
+            <lg>
+               <l>beware of a new learning, quoth he, it lyes,</l>
+               <l>which is the thing I moſt abhor,</l>
+               <l>Meddle not with it in any manner of wiſe.</l>
+               <l>but do as your Fathers have done before.</l>
+            </lg>
+            <lg>
+               <l>By truſt I did put in the Devils works,</l>
+               <l>thinking ſufficient my Soul to ſave,</l>
+               <l>being worſe than either Jews or Turks,</l>
+               <l>thus Chriſt of his merits I did deprave.</l>
+            </lg>
+            <lg>
+               <l>I might liken my ſelf with a woful heart,</l>
+               <l>unto the Dumb man in <hi>Luke</hi> the Eleven,</l>
+               <l>From whence Chriſt cauſed the Devil to depart,</l>
+               <l>but ſhortly after he took the other ſeven.</l>
+            </lg>
+            <lg>
+               <l>My time thus good Lord ſo quickly I ſpent,</l>
+               <l>alas I ſhall die the ſooner therefore.</l>
+               <l>O Lord I and it written in thy Teſtament,</l>
+               <l>that thou haſt mercy enough in ſtore.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>For ſuch Sinners as the Scripture ſaith,</hi>
+               </l>
+               <l>
+                  <hi>that would gladly Repent, &amp; follow thy word</hi>
+               </l>
+               <l>
+                  <hi>Which ile not deny whilſt I have breath,</hi>
+               </l>
+               <l>
+                  <hi>for priſon, fire, faggot, or fierce ſword.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Strengthen me good Lord in thy truth to ſtand,</l>
+               <l>for the bloody butchers have me at their will,</l>
+               <l>with their ſlaughter knives ready drawn in thei hand</l>
+               <l>my ſimple Carcaſs to devour and kill.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>O Lord forgive me my offence,</hi>
+               </l>
+               <l>
+                  <hi>for I have offended thee very ſore,</hi>
+               </l>
+               <l>
+                  <hi>Take therefore my ſinful body from hence,</hi>
+               </l>
+               <l>
+                  <hi>then ſhall I vile Creature offend thee no mor</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>I would wiſh all creatures and faithful friend,</l>
+               <l>for to keep from this Gardeners hands,</l>
+               <l>For he will bring them ſoon unto their ends,</l>
+               <l>with cruel torments of fierce fire brands.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>I dare not preſume for him to pray,</hi>
+               </l>
+               <l>
+                  <hi>becauſe the truth of him it was well known,</hi>
+               </l>
+               <l>
+                  <hi>But ſince that time he hath gone aſtray,</hi>
+               </l>
+               <l>
+                  <hi>and much peſtilent Seed abroad he hath ſown</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>becauſe that now I have no ſpace,</l>
+               <l>the cauſe of my death truly to ſhow,</l>
+               <l>I truſt hereafter that by God's holy Grace,</l>
+               <l>that all faithful their ſhall plainly know.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>to thee O</hi> Lord <hi>I bequeath my ſpirit,</hi>
+               </l>
+               <l>
+                  <hi>that art the Work maſter of the ſame,</hi>
+               </l>
+               <l>
+                  <hi>it is thine</hi> Lord, <hi>therefore take it of right,</hi>
+               </l>
+               <l>
+                  <hi>my carcaſs on earth I leave, from whence it came</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Although to aſhes it be now burned,</l>
+               <l>I know thou canſt raiſe it again:</l>
+               <l>In the ſame likeneſs as thou it formed,</l>
+               <l>in Heaven with thee evermore to remain.</l>
+            </lg>
+         </div>
+         <div type="ballad">
+            <pb n="15" facs="tcp:183222:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 20 -->
+            <head>A Rare Example of a Vertuous Maid in <hi>Paris,</hi> who was by her own Mother procured to be put in Priſon, think<g ref="char:EOLunhyphen"/>ing thereby to compel her to Popery: but ſhe continued to the end, an finiſhed her life in the fire.</head>
+            <opener>Tune is, O man in Deſparation.</opener>
+            <lg>
+               <l>IT was a Ladies Daughter</l>
+               <l>of <hi>Paris</hi> properly,</l>
+               <l>Her mother her commanded</l>
+               <l>to Maſs that ſhe ſhould hie;</l>
+               <l>O pardon me, dear mother,</l>
+               <l>her daughter dear did ſay,</l>
+               <l>Vnto that filthy Idol</l>
+               <l>I never can obey.</l>
+            </lg>
+            <lg>
+               <l>With weeping and waiting,</l>
+               <l>her mother then did go,</l>
+               <l>To aſſemble her Kinsfolks,</l>
+               <l>that they the truth may know,</l>
+               <l>Who being then aſſembled,</l>
+               <l>they did this maiden call,</l>
+               <l>And put her into priſon,</l>
+               <l>to fear her there withal.</l>
+            </lg>
+            <lg>
+               <l>But where they thought to fear her,</l>
+               <l>ſhe did moſt ſtrong endure,</l>
+               <l>Altho' her years was tender,</l>
+               <l>her faith was firm and ſure,</l>
+               <l>She weigh'd not their allurements,</l>
+               <l>ſhe fear'd not firey flame,</l>
+               <l>She hop'd thro' Chriſt her Saviour,</l>
+               <l>to have immortal fame.</l>
+            </lg>
+            <lg>
+               <l>Before the judge they brought her,</l>
+               <l>thinking that ſhe would turn,</l>
+               <l>And there ſhe was condemned,</l>
+               <l>in fire for to burn,</l>
+               <l>inſtead of Golden bracelets,</l>
+               <l>with Cords they bound her faſt,</l>
+               <l>My God grant me with patience</l>
+               <l>(quoth ſhe) to die at laſt.</l>
+            </lg>
+            <lg>
+               <l>And on the morrow after,</l>
+               <l>which was her d<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing day,</l>
+               <l>They ſtript this ſilly Damſel</l>
+               <l>out of her rich array,</l>
+               <l>Her Chain of Gold ſo coſtly,</l>
+               <l>away from her they take,</l>
+               <l>And ſhe again moſt joyfully</l>
+               <l>did all the world forſake.</l>
+            </lg>
+            <lg>
+               <l>Vnto the place of torment</l>
+               <l>they brought her ſpeedily,</l>
+               <l>With heart and mind moſt conſtant,</l>
+               <l>ſhe willing was to die,</l>
+               <l>But ſeeing many Ladies</l>
+               <l>aſſembled in that place,</l>
+               <l>Theſe words ſhe then pronounced,</l>
+               <l>lamenting of their caſe.</l>
+            </lg>
+            <lg>
+               <l>You Ladies of this City,</l>
+               <l>mark well my words (quoth ſhe)</l>
+               <l>Although I ſhall be burned,</l>
+               <l>yet do not pitty me,</l>
+               <l>Your ſelves I rather pitty,</l>
+               <l>and weep for your decay,</l>
+               <l>Amend your time fair Ladies,</l>
+               <l>and do no time delay.</l>
+            </lg>
+            <lg>
+               <l>Then came her mother weeping,</l>
+               <l>her daughter to behold,</l>
+               <l>And in her hand ſhe brought her</l>
+               <l>a book covered with gold:</l>
+               <l>Throw hence, quoth ſhe, that idol,</l>
+               <l>convey it from my ſight,</l>
+               <l>And bring me hither my bible</l>
+               <l>wherein I take delight.</l>
+            </lg>
+            <lg>
+               <l>But my diſtreſſed mother,</l>
+               <l>why weep you? be content,</l>
+               <l>you have to death delivered me,</l>
+               <l>moſt like an innocent,</l>
+               <l>Tormentor do thy Office</l>
+               <l>on me when thou thinkſt beſt,</l>
+               <l>but God my Heavenly Father</l>
+               <l>will bring my ſoul to reſt.</l>
+            </lg>
+            <lg>
+               <l>but Oh my aged Father,</l>
+               <l>where-ever thou doſt lye,</l>
+               <l>Thou know'ſt not thy poor daughter</l>
+               <l>is ready for to die;</l>
+               <l>but yet amongſt the Angels,</l>
+               <l>in Heaven I hope to dwell,</l>
+               <l>Therefore my loving Father,</l>
+               <l>I bid thee now farewel.</l>
+            </lg>
+            <lg>
+               <l>Farewel likewiſe my mother,</l>
+               <l>adieu my Friends alſo,</l>
+               <l>God grant that you by others</l>
+               <l>may never feel ſuch woe,</l>
+               <l>Forſake your Superſtition,</l>
+               <l>the cauſe of mortal ſtrife,</l>
+               <l>Embrace God's true Religion,</l>
+               <l>for which I loſe my life.</l>
+            </lg>
+            <lg>
+               <l>When all theſe words were ended,</l>
+               <l>then came the man of death,</l>
+               <l>Who kindled ſoon a fire,</l>
+               <l>which ſtopt this Virgins breath:</l>
+               <l>To Chriſt her only Saviour,</l>
+               <l>ſhe did her Soul commend,</l>
+               <l>Farewel (quoth ſhe) good people,</l>
+               <l>and thus ſhe made an end.</l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>Printed by and for A.M. and ſold by the Bookſellers of London.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
